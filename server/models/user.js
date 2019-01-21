@@ -12,7 +12,7 @@ const app = new User
 
 app.save().then((doc) =>
  {
-      console.log("User saved",doc);
+      console.log("Saved from user file:",doc);
  },(e)=>
  {
       console.log('Unable to save',e);
